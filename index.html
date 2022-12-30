@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Alura</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./images/logo_alura.png" alt="logo da alura">
+    </header>
+
+    <div class="container">
+        <div class="main">
+            
+           <textarea id="user-text" placeholder="Digite seu texto"></textarea>
+            
+            <div class="warning">
+                <p>   <img class="exclamacao" src="./images/aviso_exclamacao.png" alt="Alert notice">
+               Apenas letras minúsculas e sem acento.</p>
+                <button type="button" onclick="criptografar()"> Criptografar</button>
+                <button type="button" onclick="descriptografar()"> Descriptografar</button>
+            </div>
+        </div>
+        <div class="right-side">
+            <div id="not-concluded">
+                <img src="./images/user_search.svg" alt="user-search">
+                <h1>
+                    Nenhuma mensagem encontrada
+                </h1>
+                <p>Digite um texto que você deseja criptogrfar ou descriptografar</p>
+            </div>
+           <div id="concluded">
+            <div id="processedText">
+
+            </div>
+            <button type="button" onclick="copiar()"> Copiar</button>
+            
+           </div>
+        </div>
+    </div>
+    
+   <script src="./js/index.js"></script> 
+   <footer>
+    <img src="">
+    <p class="copyright">&copy;   Desenvolvido por Carlos José Gonçalves - 2022</p>
+</footer>
+</body>
+</html>
