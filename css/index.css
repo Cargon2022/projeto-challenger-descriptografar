@@ -1,0 +1,56 @@
+header {
+    margin-left: 10px;
+
+    
+}
+
+body  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    min-height: 100%;
+   
+}
+#user-text {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container {
+    display:flex;
+  
+}
+
+
+.main{
+    background-color: #e5e5e5;
+     min-height: 100%;
+     height: 600px;
+    }
+    .right-side {
+        width: 300px;
+        height: 400px;
+        background: white;
+
+    }
+
+    .exclamacao {
+        display: inline-block;
+
+
+
+    } 
+
+    .warning {
+        text-align: center;
+        background: rgb(229, 238, 229);
+        padding: 50px 0;
+    }
+    .copyright {
+        color: rgb(13, 13, 13);
+        font-size: 20px;
+        margin: 20px 0;
+    }
