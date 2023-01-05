@@ -12,17 +12,25 @@ function setvisibilityConcluded(isVisible) {
     
 }
 
+var textInput = document.querySelector("#user-text");
+var outInput = document.querySelector("#not-concluded");
 
 function criptografar () {
+    var  userText = document.getElementById("user-text").value;
+    console.log (userText);
+    var  resultCripto = userText.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");
+    console.log (resultCripto);
+  
+  
     
-    const userText = document.getElementById("user-text").value;
 
     // Criar método de criptografia
     // Esconder "Nenhuma Mensagem encontrada"
     
     document.getElementById ("not-concluded").style.display="none" ;
     setvisibilityConcluded (true)
-    document.getElementById ("processedText").innerHTML = userText;
+    document.getElementById ("processedText").innerHTML = resultCripto;
+    alert ("Seu texto foi criptografoado");
     /* Faltam: 1 - criar botão de copiar e sua funcionalidades;
     2 - criar função de criptografia;
     3 - criar função de descriptografia;
@@ -32,8 +40,10 @@ function criptografar () {
 
 }
 function copiar () {
+    
+            
+      }
 
-}
 
 
 
