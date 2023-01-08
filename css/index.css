@@ -1,106 +1,115 @@
-.logo {
-    margin-left: 10px;
- 
-}
-.logo:hover {
-    animation: expandir 1s;
-}
-.promocurso {
-    position: absolute;
-    top: 1px;
-    left: 150px;
-    font-size: 30px;
-    line-height: 100%;
-    color: #380B61;
- 
-   
+    .logo {
+        margin-left: 30px;
+        margin-top: 20px;
     
-}
+    }
+    .logo:hover {
+        animation: expandir 1s;
+
+    }
+    .promocurso {
+        position: absolute;
+        top: 30px;
+        left: 150px;
+        font-size: 30px;
+        line-height: 100%;
+        color: #380B61;
+        text-transform: uppercase;
+        font-weight: bold;
     
-
-/* Elemento de tag <body> */
-body  {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-    min-height: 100%;
-   
-}
-
-#user-text {
-    margin-top: 20px;
-    margin-left: 50px;
     
-}
-
-.container {
-    display:flex;
-    justify-content: space-around;
-    padding: 20px;
- 
-  
-}
-
-
-.main{
-    background-color: #e5e5e5;
-     min-height: 100%;
-     height: 600px;
-    }
-    .right-side {
-        width: 300px;
-        height: 400px;
-        background: white;
-     
-
-    }
-
-    .exclamacao {
-        display: inline-block;
-
-
-
-    } 
-
-    .warning {
-        text-align: center;
-        background: rgb(229, 238, 229);
-        padding: 50px 0;
-    }
-    .copyright {
-        color: rgb(13, 13, 13);
-        font-size: 20px;
-        margin: 20px 0;
-    }
-    footer {
-        text-align: center;
-    }
-    
-/* Elementos de tags  <input>,  <textarea> e <button> */
-    input, textarea, button {
-        font-family: sans-serif;
-        font-size: 1em;
-        color: 59429d;
-        border-radius: 5px;
-    }
-   
         
-       
+    }
+        
+
+    /* Elemento de tag <body> */
+    body  {
+        background-color: #e5e5e5;
     
-    /* Elemento de classe "botao" */
-.botao {
-    width: 250px;
-    height: 50px;
-    font-size: 1.2em;
-    background: #59429d;
-    border: 0;
-    color: #ffffff;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    transform: translate(-50%, -50%)
-    margin:auto;
-    cursor: pointer;
-}
+    }
+
+    #user-text {
+        margin-top: 20px;
+        margin-left: 50px;
+        
+    }
+
+    .container {
+        display:flex;
+        justify-content: space-around;
+        padding: 20px;
+    
+    
+    }
+
+
+    .main{
+        background-color: #e5e5e5;
+        min-height: 100%;
+        height: 600px;
+        }
+        .right-side {
+            width: 300px;
+            height: 400px;
+            background: white;
+        
+
+        }
+
+        .exclamacao {
+            display: inline-block;
+
+
+
+        } 
+
+        .warning {
+            text-align: center;
+            background: rgb(229, 238, 229);
+            padding: 50px 0;
+        }
+
+        #not-concluded h2 {
+            text-align: center;
+        }
+
+        .copyright {
+            color: rgb(13, 13, 13);
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            text-align: center;
+        }
+        
+    /* Elementos de tags  <input>,  <textarea> e <button> */
+        input, textarea, button {
+            font-family: sans-serif;
+            font-size: 1em;
+            color: 59429d;
+            border-radius: 5px;
+            margin: 0 0 0 30px;
+            
+        }
+    
+            
+        
+        
+        /* Elemento de classe "botao" */
+    .botao {
+        width: 250px;
+        height: 50px;
+        font-size: 1.2em;
+        background: #59429d;
+        border: 0;
+        color: #ffffff;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+        transform: translate(-50%, -50%)
+        margin: auto
+    }
+        .botao {
+        cursor: pointer;
+    }
+    
+
