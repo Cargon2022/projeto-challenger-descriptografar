@@ -57,8 +57,7 @@ function criptografar () {
     
     function copiarTexto(){
         let textoCopiado = document.getElementById("processedText").innerHTML;
-       
-       navigator.clipboard.writeText(textoCopiado)
+        navigator.clipboard.writeText(textoCopiado)
        
        alert("Texto copiado")
       
