@@ -20,7 +20,7 @@
         <div class="container">
             <div class="main">
                 
-            <textarea id="user-text" cols = "70" rows = "6" placeholder="Digite seu texto"></textarea>
+            <textarea onchange="validateText()" id="user-text"  cols = "70" rows = "6" placeholder="Digite seu texto"> </textarea>
                 
                 <div class="warning">
                     <p>   <img class="exclamacao" src="./images/aviso_exclamacao.png" alt="Alert notice">
@@ -31,7 +31,7 @@
             </div>
             <div class="right-side">
                 <div id="not-concluded">
-                    <img src="./images/L (1).jpg" alt="user-search">
+                    <img src="./images/user_search.svg" alt="user-search">
                 <h2> Nenhuma mensagem encontrada </h2>
                     <p>Digite um texto que você deseja criptografar ou descriptografar</p>
                 </div>
