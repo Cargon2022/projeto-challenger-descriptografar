@@ -19,11 +19,11 @@
         var  userText = document.getElementById("user-text").value;
         // 1 - Deve funcionar apenas com letras minúsculas 
             if(containsUppercase (userText)) {
-                alert ("Não pode conter letra maiuscula");
+                alert ("Atenção: não pode conter letra maiuscula.");
 
             }
         if (validateCaracterEspeciais (userText)) {
-            alert ("Não sáo permitidos caracteres especiais");
+            alert ("Atenção: não sáo permitidos caracteres especiais.");
         }
         
     }
