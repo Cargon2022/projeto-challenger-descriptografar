@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
         <title>Desafio Alura</title>
         <link rel="stylesheet" href="./css/reset.css">
         <link rel="stylesheet" href="./css/index.css">
@@ -24,7 +26,7 @@
                 
                 <div class="warning">
                     <p>   <img class="exclamacao" src="./images/aviso_exclamacao.png" alt="Alert notice">
-                Apenas letras minúsculas e sem acento.</p> <br><br>
+                Apenas letras minúsculas e sem caracteres especais.</p> <br>
                     <button class="botao" type="button" onclick="criptografar()"><img src="./images/lock1.png"> Criptografar</button>
                     <button class="botao" type="button" onclick="descriptografar()"><img src="./images/padlock2.png"> Descriptografar</button>
                 </div>
@@ -33,7 +35,7 @@
                 <div id="not-concluded">
                     <img src="./images/user_search.svg" alt="user-search">
                 <h2> Nenhuma mensagem encontrada </h2>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
                 </div>
             <div id="concluded">
                 <div id="processedText">

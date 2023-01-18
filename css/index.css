@@ -1,3 +1,12 @@
+    *{
+        
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+    }
+    
+    
     .logo {
         margin-left: 30px;
         margin-top: 20px;
@@ -38,6 +47,7 @@
         display:flex;
         justify-content: space-around;
         padding: 20px;
+       
     
     
     }
@@ -51,7 +61,8 @@
         .right-side {
             width: 300px;
             height: 400px;
-            background: white;
+            background-color: #e5e5e5;
+            text-align: center;
         
 
         }
@@ -65,7 +76,6 @@
 
         .warning {
             text-align: center;
-            background: rgb(229, 238, 229);
             padding: 50px 0;
         }
 
@@ -86,8 +96,8 @@
         input, textarea, button {
             font-family: sans-serif;
             font-size: 1em;
-            color: 59429d;
-            border-radius: 5px;
+            color: #59429d;
+            border-radius: 14px;
             margin: 0 0 0 30px;
             
         }
